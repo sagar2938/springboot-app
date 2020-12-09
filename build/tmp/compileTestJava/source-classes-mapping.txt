@@ -1,0 +1,4 @@
+com/assessment/vmware/rest/TaskControllerTest.java
+ com.assessment.vmware.rest.TaskControllerTest
+com/assessment/vmware/VmwareApplicationTests.java
+ com.assessment.vmware.VmwareApplicationTests
