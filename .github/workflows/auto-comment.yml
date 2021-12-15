@@ -2,6 +2,7 @@ name: Auto Comment
 on: [issues]
 jobs:
   run:
+    if: github.event.label.name == 'help-wanted'
     runs-on: ubuntu-latest
     steps:
       - uses: wow-actions/auto-comment@v1
