@@ -2,7 +2,7 @@ name: Auto Comment
 on: [issues]
 jobs:
   run:
-    if: ${{ startsWith(github.event.issue.title, '[bug]') }}
+    if: startsWith(github.event.issue.title, '[bug]')
     runs-on: ubuntu-latest
     steps:
       - uses: wow-actions/auto-comment@v1
