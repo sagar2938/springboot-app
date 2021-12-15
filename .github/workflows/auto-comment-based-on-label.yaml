@@ -1,4 +1,4 @@
-ame: Add comment
+name: Add comment
 on:
   issues:
     types:
