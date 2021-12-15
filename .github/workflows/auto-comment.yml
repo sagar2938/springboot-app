@@ -17,3 +17,6 @@ jobs:
             
             title : ${{ github.event.issue.title }}
             title contains ${{ contains(github.event.issue.title, '[bug]') }}
+            title starts with [bug] ${{ startsWith(github.event.issue.title, '[bug]') }}
+            
+            more infor here https://docs.github.com/en/actions/learn-github-actions/expressions
