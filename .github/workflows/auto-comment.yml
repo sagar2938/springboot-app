@@ -14,3 +14,6 @@ jobs:
             Please make sure you have given us as much context as possible. is labelled ${{ join(github.event.issue.labels.*.name, ', ') }}
             
             contains ${{ contains(github.event.issue.labels.*.name, 'bug') }}
+            
+            title : ${{ github.event.issue.title }}
+            title contains ${{ contains(github.event.issue.title, '[bug]') }}
